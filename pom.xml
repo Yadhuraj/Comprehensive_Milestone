@@ -86,6 +86,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<testFailureIgnore>true</testFailureIgnore>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
