@@ -1,0 +1,6 @@
+2021-11-18 19:26:59,241 ERROR [main] Forgot_Login:28 - Cannot locate an element using css selector=div[id = 'ResetSuccess']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: RemoteWebDriver
+ 

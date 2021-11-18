@@ -1,0 +1,21 @@
+2021-11-18 20:22:09,352  INFO [main] Login:20 - Login successful
+ 2021-11-18 20:22:39,469  INFO [main] Invalid_Login:20 - invalid login intercepted-successful
+ 2021-11-18 20:23:16,654  INFO [main] Invalid_Login:20 - invalid login intercepted-successful
+ 2021-11-18 20:24:33,926 ERROR [main] Forgot_Login:28 - no such element: Unable to locate element: {"method":"css selector","selector":"[value='Submit']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:13434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a0b596b6dfa7688f42f95d3348e4b6d3
+*** Element info: {Using=css selector, value=[value='Submit']}
+ 2021-11-18 20:25:12,459  INFO [main] SearchBar:20 - Added successfully
+ 2021-11-18 20:25:36,107  INFO [main] SearchBar:20 - Added successfully
+ 2021-11-18 20:26:05,502  INFO [main] Header:20 - Added successfully
+ 2021-11-18 20:26:38,834  INFO [main] Latest:20 - Added successfully
+ 2021-11-18 20:26:56,139  INFO [main] Wishlist:20 - Navigated as expected
+ 2021-11-18 20:27:22,574  INFO [main] Cart_checkout:20 - Navigated As Expected
+ 2021-11-18 20:27:42,886  INFO [main] Cart_remove:20 - Removed the item As Expected
+ 2021-11-18 20:28:15,588  INFO [main] Footer_ContactUS:20 - Sucessful in reteiving password
+ 
