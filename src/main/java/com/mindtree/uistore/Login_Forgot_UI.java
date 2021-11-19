@@ -9,5 +9,5 @@ public class Login_Forgot_UI {
 	public static By submit_recover = By.cssSelector("input[value = 'Submit']");
 	public static By validate_recover = By.cssSelector("div[id = 'ResetSuccess']");
 	public static By validate2 = By.cssSelector("[value='Submit']") ;
-	
+	public static By home = By.cssSelector("[class='h1 site-header__logo']") ;
 }

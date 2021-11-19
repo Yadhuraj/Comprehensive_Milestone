@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">11 methods, 5 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Cart_checkout">Cart_checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Header">Header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Latest">Latest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="SearchBar">SearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Wishlist">Wishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +134,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Cart_checkout">Cart_checkout</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Cart_remove">Cart_remove</a> <!-- method navigator-link -->
@@ -122,11 +151,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Header">Header</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Invalid_Login(sedifek613@otozuz.com, book@123)">Invalid_Login(sedifek613@otozuz.com, book@123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -137,22 +161,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Latest">Latest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="SearchBar">SearchBar</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.mindtree.runner.BigSmall_Runner" class="method navigator-link" hash-for-method="Wishlist">Wishlist</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -167,9 +176,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.mindtree.runner.BigSmall_Runner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -178,8 +187,113 @@
                   <a name="Cart_checkout">
                   </a> <!-- Cart_checkout -->
                   <span class="method-name">Cart_checkout</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;cart-link&quot;&gt;...&lt;/span&gt; is not clickable at point (1329, 62). Other element would receive the click: &lt;a href=&quot;/products/harry-potter-plush-soft-toy?variant=39591354400966&quot; class=&quot;cart__product-name&quot; data-cart-item-href=&quot;&quot; data-cart-item-title=&quot;&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=96.0.4664.45)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-3MSUA5N1&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.mindtree.reusablecompanents.DriverFunctions.click(DriverFunctions.java:10)
+	at com.mindtree.pageobject.Cart_checkout_POM.&lt;init&gt;(Cart_checkout_POM.java:15)
+	at com.mindtree.runner.BigSmall_Runner.Cart_checkout(BigSmall_Runner.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Header">
+                  </a> <!-- Header -->
+                  <span class="method-name">Header</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.indexOf(String)&quot; because &quot;path&quot; is null
+	at com.relevantcodes.extentreports.ExtentTest.isPathRelative(ExtentTest.java:502)
+	at com.relevantcodes.extentreports.ExtentTest.addScreenCapture(ExtentTest.java:287)
+	at com.mindtree.utility.ExtentUtility.fail(ExtentUtility.java:24)
+	at com.mindtree.pageobject.Search_header.&lt;init&gt;(Search_header.java:51)
+	at com.mindtree.runner.BigSmall_Runner.Header(BigSmall_Runner.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Latest">
+                  </a> <!-- Latest -->
+                  <span class="method-name">Latest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.indexOf(String)&quot; because &quot;path&quot; is null
+	at com.relevantcodes.extentreports.ExtentTest.isPathRelative(ExtentTest.java:502)
+	at com.relevantcodes.extentreports.ExtentTest.addScreenCapture(ExtentTest.java:287)
+	at com.mindtree.utility.ExtentUtility.fail(ExtentUtility.java:24)
+	at com.mindtree.pageobject.Latest_POM.&lt;init&gt;(Latest_POM.java:47)
+	at com.mindtree.runner.BigSmall_Runner.Latest(BigSmall_Runner.java:112)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchBar">
+                  </a> <!-- SearchBar -->
+                  <span class="method-name">SearchBar</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.indexOf(String)&quot; because &quot;path&quot; is null
+	at com.relevantcodes.extentreports.ExtentTest.isPathRelative(ExtentTest.java:502)
+	at com.relevantcodes.extentreports.ExtentTest.addScreenCapture(ExtentTest.java:287)
+	at com.mindtree.utility.ExtentUtility.fail(ExtentUtility.java:24)
+	at com.mindtree.pageobject.Shopping_Searcbar.&lt;init&gt;(Shopping_Searcbar.java:58)
+	at com.mindtree.runner.BigSmall_Runner.SearchBar(BigSmall_Runner.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Wishlist">
+                  </a> <!-- Wishlist -->
+                  <span class="method-name">Wishlist</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;link_text&quot;&gt;...&lt;/span&gt; is not clickable at point (1215, 74). Other element would receive the click: &lt;div class=&quot;grid__item three-quarters&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=96.0.4664.45)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-3MSUA5N1&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.mindtree.reusablecompanents.DriverFunctions.click(DriverFunctions.java:10)
+	at com.mindtree.pageobject.Wishlist_POM.&lt;init&gt;(Wishlist_POM.java:16)
+	at com.mindtree.runner.BigSmall_Runner.Wishlist(BigSmall_Runner.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mindtree.runner.BigSmall_Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
                   <a name="Cart_remove">
@@ -203,13 +317,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Header">
-                  </a> <!-- Header -->
-                  <span class="method-name">Header</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="Invalid_Login(sedifek613@otozuz.com, book@123)">
                   </a> <!-- Invalid_Login(sedifek613@otozuz.com, book@123) -->
                   <span class="method-name">Invalid_Login</span>
@@ -226,30 +333,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Latest">
-                  </a> <!-- Latest -->
-                  <span class="method-name">Latest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="Login">
                   </a> <!-- Login -->
                   <span class="method-name">Login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SearchBar">
-                  </a> <!-- SearchBar -->
-                  <span class="method-name">SearchBar</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Wishlist">
-                  </a> <!-- Wishlist -->
-                  <span class="method-name">Wishlist</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -308,54 +394,54 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SearchBar')
+data.setCell(0, 1, 'Footer_ContactUS')
 data.setCell(0, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(0, 3, 58951);
+data.setCell(0, 3, 57609);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Login')
+data.setCell(1, 1, 'Forgot_Login')
 data.setCell(1, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(1, 3, 41114);
+data.setCell(1, 3, 43122);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Forgot_Login')
+data.setCell(2, 1, 'Invalid_Login')
 data.setCell(2, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(2, 3, 39029);
+data.setCell(2, 3, 43052);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Invalid_Login')
+data.setCell(3, 1, 'Login')
 data.setCell(3, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(3, 3, 37588);
+data.setCell(3, 3, 42704);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Invalid_Login')
+data.setCell(4, 1, 'SearchBar')
 data.setCell(4, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(4, 3, 34160);
+data.setCell(4, 3, 40950);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Header')
+data.setCell(5, 1, 'Invalid_Login')
 data.setCell(5, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(5, 3, 32635);
+data.setCell(5, 3, 37892);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'Latest')
 data.setCell(6, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(6, 3, 31728);
+data.setCell(6, 3, 33636);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Footer_ContactUS')
+data.setCell(7, 1, 'Header')
 data.setCell(7, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(7, 3, 28053);
+data.setCell(7, 3, 33515);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Cart_checkout')
+data.setCell(8, 1, 'Cart_remove')
 data.setCell(8, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(8, 3, 26583);
+data.setCell(8, 3, 12104);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'Cart_remove')
+data.setCell(9, 1, 'Cart_checkout')
 data.setCell(9, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(9, 3, 19298);
+data.setCell(9, 3, 4148);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'Wishlist')
 data.setCell(10, 2, 'com.mindtree.runner.BigSmall_Runner')
-data.setCell(10, 3, 15389);
+data.setCell(10, 3, 1099);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -388,95 +474,105 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Login</span>
-                <span class="method-start">201 ms</span>
+                <span class="method-start">176 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">41317 ms</span>
+                <span class="method-start">42883 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Invalid_Login(sedifek613@otozuz.com, book@123)</span>
-                <span class="method-start">41329 ms</span>
+                <span class="method-start">42895 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">75490 ms</span>
+                <span class="method-start">80789 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Invalid_Login(sedifek@otozuz.com, book@1)</span>
-                <span class="method-start">75492 ms</span>
+                <span class="method-start">80791 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">113080 ms</span>
+                <span class="method-start">123843 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Forgot_Login</span>
-                <span class="method-start">113082 ms</span>
+                <span class="method-start">123846 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">152112 ms</span>
+                <span class="method-start">166968 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">SearchBar</span>
-                <span class="method-start">152114 ms</span>
+                <span class="method-start">166970 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">211065 ms</span>
+                <span class="method-start">207967 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Header</span>
-                <span class="method-start">211066 ms</span>
+                <span class="method-start">207968 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">243701 ms</span>
+                <span class="method-start">241484 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Latest</span>
-                <span class="method-start">243702 ms</span>
+                <span class="method-start">241484 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">275430 ms</span>
+                <span class="method-start">275121 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Wishlist</span>
-                <span class="method-start">275431 ms</span>
+                <span class="method-start">275122 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">290820 ms</span>
+                <span class="method-start">276222 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Cart_checkout</span>
-                <span class="method-start">290822 ms</span>
+                <span class="method-start">276222 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">317405 ms</span>
+                <span class="method-start">280371 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Cart_remove</span>
-                <span class="method-start">317405 ms</span>
+                <span class="method-start">280372 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">336703 ms</span>
+                <span class="method-start">292477 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">Footer_ContactUS</span>
-                <span class="method-start">336704 ms</span>
+                <span class="method-start">292478 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">meth</span>
-                <span class="method-start">364757 ms</span>
+                <span class="method-start">350087 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">end</span>
-                <span class="method-start">364758 ms</span>
+                <span class="method-start">350088 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

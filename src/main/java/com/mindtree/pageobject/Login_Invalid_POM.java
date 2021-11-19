@@ -22,14 +22,14 @@ public class Login_Invalid_POM extends Login_Invaid_UI{
 			Thread.sleep(3000);
 			DriverFunctions.click(driver, submit);
 			Thread.sleep(3000);
-			if(driver.findElement(validate2).isDisplayed())
+			if(driver.findElements(validate2).size()>0)
 			{
 //				System.out.println("if1");
 				Log.testLoggerInfo(logger, "invalid login intercepted-successful");
 				ExtentUtility.pass(test,driver, "invalid login intercepted-successful");
 			}
 			else
-			if (driver.findElement(validate).isDisplayed()) {
+			if (driver.findElements(validate).size()>0) {
 				Log.testLoggerInfo(logger, "invalid login intercepted-successful");
 				ExtentUtility.pass(test, driver, "invalid login intercepted-successful");
 			} else {

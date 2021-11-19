@@ -5,9 +5,9 @@
     <classes>
       <class name="com.mindtree.runner.BigSmall_Runner">
         <methods>
+          <include name="Footer_ContactUS"/>
           <include name="end"/>
           <include name="set"/>
-          <include name="Forgot_Login"/>
           <include name="meth"/>
         </methods>
       </class> <!-- com.mindtree.runner.BigSmall_Runner -->

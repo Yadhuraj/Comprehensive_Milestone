@@ -27,7 +27,7 @@ public class Search_header extends Search_header_UI{
 			DriverFunctions.click(driver, add_cart);
 			Thread.sleep(9000);
 			
-			if (driver.findElement(cart_close).isDisplayed()) 
+			if (driver.findElements(cart_close).size()>0) 
 			{
 				DriverFunctions.click(driver,cart_close);
 				Log.testLoggerInfo(logger, "Added successfully");

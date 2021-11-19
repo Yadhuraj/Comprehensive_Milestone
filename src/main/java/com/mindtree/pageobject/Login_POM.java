@@ -24,14 +24,14 @@ public class Login_POM extends Login_UI{
 			DriverFunctions.click(driver, submit );
 			Thread.sleep(5000);
 			System.out.println("1");
-			if(driver.findElement(validate2).isDisplayed())
+			if(driver.findElements(validate2).size()>0)
 			{
 				System.out.println("if1");
 				Log.testLoggerInfo(logger, "Login successful");
 				ExtentUtility.pass(test,driver, "Login successful");
 			}
 			else
-				if(driver.findElement(validate).isDisplayed())
+				if(driver.findElements(validate).size()>0)
 			{
 				System.out.println("if2");
 				Log.testLoggerInfo(logger, "Login successful");

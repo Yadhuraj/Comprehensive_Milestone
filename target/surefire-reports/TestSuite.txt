@@ -1,4 +1,38 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 368.819 s - in TestSuite
+Tests run: 11, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 358.818 s <<< FAILURE! - in TestSuite
+com.mindtree.runner.BigSmall_Runner.SearchBar  Time elapsed: 41.011 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.indexOf(String)" because "path" is null
+	at com.mindtree.runner.BigSmall_Runner.SearchBar(BigSmall_Runner.java:90)
+
+com.mindtree.runner.BigSmall_Runner.Header  Time elapsed: 33.506 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.indexOf(String)" because "path" is null
+	at com.mindtree.runner.BigSmall_Runner.Header(BigSmall_Runner.java:101)
+
+com.mindtree.runner.BigSmall_Runner.Latest  Time elapsed: 33.641 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.indexOf(String)" because "path" is null
+	at com.mindtree.runner.BigSmall_Runner.Latest(BigSmall_Runner.java:112)
+
+com.mindtree.runner.BigSmall_Runner.Wishlist  Time elapsed: 1.087 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="link_text">...</span> is not clickable at point (1215, 74). Other element would receive the click: <div class="grid__item three-quarters">...</div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+	at com.mindtree.runner.BigSmall_Runner.Wishlist(BigSmall_Runner.java:125)
+
+com.mindtree.runner.BigSmall_Runner.Cart_checkout  Time elapsed: 4.15 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="cart-link">...</span> is not clickable at point (1329, 62). Other element would receive the click: <a href="/products/harry-potter-plush-soft-toy?variant=39591354400966" class="cart__product-name" data-cart-item-href="" data-cart-item-title="">...</a>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+	at com.mindtree.runner.BigSmall_Runner.Cart_checkout(BigSmall_Runner.java:134)
+

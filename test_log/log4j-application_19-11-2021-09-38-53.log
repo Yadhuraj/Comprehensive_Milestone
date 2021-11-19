@@ -1,0 +1,11 @@
+2021-11-19 09:39:57,401  INFO [main] Login:20 - Login successful
+ 2021-11-19 09:40:39,175  INFO [main] Invalid_Login:20 - invalid login intercepted-successful
+ 2021-11-19 09:42:23,566  INFO [main] Forgot_Login:20 - Sucessful in reteiving password
+ 2021-11-19 09:43:07,523  INFO [main] SearchBar:20 - Added successfully
+ 2021-11-19 09:43:30,043  INFO [main] SearchBar:20 - Added successfully
+ 2021-11-19 09:44:00,479  INFO [main] Header:20 - Added successfully
+ 2021-11-19 09:44:32,326  INFO [main] Latest:20 - Added successfully
+ 2021-11-19 09:44:50,236  INFO [main] Wishlist:20 - Navigated as expected
+ 2021-11-19 09:45:14,391  INFO [main] Cart_checkout:20 - Navigated As Expected
+ 2021-11-19 09:45:34,144  INFO [main] Cart_remove:20 - Removed the item As Expected
+ 

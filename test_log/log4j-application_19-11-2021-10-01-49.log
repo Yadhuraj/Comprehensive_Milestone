@@ -1,0 +1,30 @@
+2021-11-19 10:02:25,369  INFO [main] Login:20 - Login successful
+ 2021-11-19 10:02:55,472  INFO [main] Invalid_Login:20 - invalid login intercepted-successful
+ 2021-11-19 10:03:34,352  INFO [main] Invalid_Login:20 - invalid login intercepted-successful
+ 2021-11-19 10:04:29,863  INFO [main] Forgot_Login:20 - Sucessful in reteiving password
+ 2021-11-19 10:05:07,686 ERROR [main] SearchBar:28 - element click intercepted: Element <div class="h1 site-header__logo" itemscope="" itemtype="http://schema.org/Organization">...</div> is not clickable at point (311, 63). Other element would receive the click: <body class="template-product jdgm--leex-script-loaded js-animate swym-no-touch swym-ready swym-speed&amp;checkoutfixes-872 swym-speed&amp;checkoutfixes-872-iconbtnlink cart-has-items js-drawer-open" ontouchstart="return true;" data-transitions="false" data-animate_underlines="true" data-animate_images="true" data-button_style="round-slight" data-type_product_capitalize="false" data-type_header_capitalize="true" data-product_image_scatter="false" data-button_type_style="normal" data-aos-easing="ease-out-quad" data-aos-duration="400" data-aos-delay="0">...</body>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+ 2021-11-19 10:05:50,505 ERROR [main] Header:28 - element not interactable
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+ 2021-11-19 10:06:23,870 ERROR [main] Latest:28 - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'New')]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+*** Element info: {Using=xpath, value=//button[contains(text(),'New')]}
+ 2021-11-19 10:06:33,811  INFO [main] Cart_remove:20 - Did not remove As Expected
+ 2021-11-19 10:07:34,080  INFO [main] Footer_ContactUS:20 - Message sent As Expected
+ 

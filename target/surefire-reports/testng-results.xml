@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="6" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-18T20:42:30 IST" name="Suite" finished-at="2021-11-18T20:48:38 IST" duration-ms="367906">
+  <suite started-at="2021-11-19T10:01:49 IST" name="Suite" finished-at="2021-11-19T10:07:46 IST" duration-ms="357287">
     <groups>
     </groups>
-    <test started-at="2021-11-18T20:42:30 IST" name="Test1" finished-at="2021-11-18T20:48:38 IST" duration-ms="367906">
+    <test started-at="2021-11-19T10:01:49 IST" name="Test1" finished-at="2021-11-19T10:07:46 IST" duration-ms="357287">
       <class name="com.mindtree.runner.BigSmall_Runner">
-        <test-method is-config="true" signature="set()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:42:30 IST" name="set" finished-at="2021-11-18T20:42:30 IST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="set()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:01:49 IST" name="set" finished-at="2021-11-19T10:01:49 IST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method signature="Login()[pri:1, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:42:30 IST" name="Login" finished-at="2021-11-18T20:43:11 IST" duration-ms="41114" status="PASS">
+        <test-method signature="Login()[pri:1, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:01:49 IST" name="Login" finished-at="2021-11-19T10:02:32 IST" duration-ms="42704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:43:11 IST" name="meth" finished-at="2021-11-18T20:43:11 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:02:32 IST" name="meth" finished-at="2021-11-19T10:02:32 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Invalid_Login(java.lang.String, java.lang.String)[pri:2, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:43:11 IST" name="Invalid_Login" data-provider="data_values" finished-at="2021-11-18T20:43:45 IST" duration-ms="34160" status="PASS">
+        <test-method signature="Invalid_Login(java.lang.String, java.lang.String)[pri:2, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:02:32 IST" name="Invalid_Login" data-provider="data_values" finished-at="2021-11-19T10:03:10 IST" duration-ms="37892" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,11 +35,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Invalid_Login -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:43:45 IST" name="meth" finished-at="2021-11-18T20:43:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:03:10 IST" name="meth" finished-at="2021-11-19T10:03:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Invalid_Login(java.lang.String, java.lang.String)[pri:2, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:43:45 IST" name="Invalid_Login" data-provider="data_values" finished-at="2021-11-18T20:44:23 IST" duration-ms="37588" status="PASS">
+        <test-method signature="Invalid_Login(java.lang.String, java.lang.String)[pri:2, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:03:10 IST" name="Invalid_Login" data-provider="data_values" finished-at="2021-11-19T10:03:53 IST" duration-ms="43052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,75 +55,351 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Invalid_Login -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:44:23 IST" name="meth" finished-at="2021-11-18T20:44:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:03:53 IST" name="meth" finished-at="2021-11-19T10:03:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Forgot_Login()[pri:3, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:44:23 IST" name="Forgot_Login" finished-at="2021-11-18T20:45:02 IST" duration-ms="39029" status="PASS">
+        <test-method signature="Forgot_Login()[pri:3, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:03:53 IST" name="Forgot_Login" finished-at="2021-11-19T10:04:36 IST" duration-ms="43122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Forgot_Login -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:45:02 IST" name="meth" finished-at="2021-11-18T20:45:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:04:36 IST" name="meth" finished-at="2021-11-19T10:04:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="SearchBar()[pri:4, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:45:02 IST" name="SearchBar" finished-at="2021-11-18T20:46:01 IST" duration-ms="58951" status="PASS">
+        <test-method signature="SearchBar()[pri:4, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:04:36 IST" name="SearchBar" finished-at="2021-11-19T10:05:17 IST" duration-ms="40950" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.indexOf(String)" because "path" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.indexOf(String)" because "path" is null
+at com.relevantcodes.extentreports.ExtentTest.isPathRelative(ExtentTest.java:502)
+at com.relevantcodes.extentreports.ExtentTest.addScreenCapture(ExtentTest.java:287)
+at com.mindtree.utility.ExtentUtility.fail(ExtentUtility.java:24)
+at com.mindtree.pageobject.Shopping_Searcbar.<init>(Shopping_Searcbar.java:58)
+at com.mindtree.runner.BigSmall_Runner.SearchBar(BigSmall_Runner.java:90)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchBar -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:46:01 IST" name="meth" finished-at="2021-11-18T20:46:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:05:17 IST" name="meth" finished-at="2021-11-19T10:05:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Header()[pri:5, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:46:01 IST" name="Header" finished-at="2021-11-18T20:46:33 IST" duration-ms="32635" status="PASS">
+        <test-method signature="Header()[pri:5, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:05:17 IST" name="Header" finished-at="2021-11-19T10:05:50 IST" duration-ms="33515" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.indexOf(String)" because "path" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.indexOf(String)" because "path" is null
+at com.relevantcodes.extentreports.ExtentTest.isPathRelative(ExtentTest.java:502)
+at com.relevantcodes.extentreports.ExtentTest.addScreenCapture(ExtentTest.java:287)
+at com.mindtree.utility.ExtentUtility.fail(ExtentUtility.java:24)
+at com.mindtree.pageobject.Search_header.<init>(Search_header.java:51)
+at com.mindtree.runner.BigSmall_Runner.Header(BigSmall_Runner.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Header -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:46:33 IST" name="meth" finished-at="2021-11-18T20:46:33 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- meth -->
-        <test-method signature="Latest()[pri:6, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:46:33 IST" name="Latest" finished-at="2021-11-18T20:47:05 IST" duration-ms="31728" status="PASS">
+        <test-method signature="Latest()[pri:6, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:05:50 IST" name="Latest" finished-at="2021-11-19T10:06:24 IST" duration-ms="33636" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.indexOf(String)" because "path" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.indexOf(String)" because "path" is null
+at com.relevantcodes.extentreports.ExtentTest.isPathRelative(ExtentTest.java:502)
+at com.relevantcodes.extentreports.ExtentTest.addScreenCapture(ExtentTest.java:287)
+at com.mindtree.utility.ExtentUtility.fail(ExtentUtility.java:24)
+at com.mindtree.pageobject.Latest_POM.<init>(Latest_POM.java:47)
+at com.mindtree.runner.BigSmall_Runner.Latest(BigSmall_Runner.java:112)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Latest -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:47:05 IST" name="meth" finished-at="2021-11-18T20:47:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:05:50 IST" name="meth" finished-at="2021-11-19T10:05:50 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Wishlist()[pri:7, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:47:05 IST" name="Wishlist" finished-at="2021-11-18T20:47:20 IST" duration-ms="15389" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:06:24 IST" name="meth" finished-at="2021-11-19T10:06:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth -->
+        <test-method signature="Wishlist()[pri:7, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:06:24 IST" name="Wishlist" finished-at="2021-11-19T10:06:25 IST" duration-ms="1099" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="link_text">...</span> is not clickable at point (1215, 74). Other element would receive the click: <div class="grid__item three-quarters">...</div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="link_text">...</span> is not clickable at point (1215, 74). Other element would receive the click: <div class="grid__item three-quarters">...</div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.mindtree.reusablecompanents.DriverFunctions.click(DriverFunctions.java:10)
+at com.mindtree.pageobject.Wishlist_POM.<init>(Wishlist_POM.java:16)
+at com.mindtree.runner.BigSmall_Runner.Wishlist(BigSmall_Runner.java:125)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Wishlist -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:47:20 IST" name="meth" finished-at="2021-11-18T20:47:20 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:06:25 IST" name="meth" finished-at="2021-11-19T10:06:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Cart_checkout()[pri:8, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:47:20 IST" name="Cart_checkout" finished-at="2021-11-18T20:47:47 IST" duration-ms="26583" status="PASS">
+        <test-method signature="Cart_checkout()[pri:8, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:06:25 IST" name="Cart_checkout" finished-at="2021-11-19T10:06:29 IST" duration-ms="4148" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="cart-link">...</span> is not clickable at point (1329, 62). Other element would receive the click: <a href="/products/harry-potter-plush-soft-toy?variant=39591354400966" class="cart__product-name" data-cart-item-href="" data-cart-item-title="">...</a>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="cart-link">...</span> is not clickable at point (1329, 62). Other element would receive the click: <a href="/products/harry-potter-plush-soft-toy?variant=39591354400966" class="cart__product-name" data-cart-item-href="" data-cart-item-title="">...</a>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.mindtree.reusablecompanents.DriverFunctions.click(DriverFunctions.java:10)
+at com.mindtree.pageobject.Cart_checkout_POM.<init>(Cart_checkout_POM.java:15)
+at com.mindtree.runner.BigSmall_Runner.Cart_checkout(BigSmall_Runner.java:134)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Cart_checkout -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:47:47 IST" name="meth" finished-at="2021-11-18T20:47:47 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:06:29 IST" name="meth" finished-at="2021-11-19T10:06:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Cart_remove()[pri:9, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:47:47 IST" name="Cart_remove" finished-at="2021-11-18T20:48:06 IST" duration-ms="19298" status="PASS">
+        <test-method signature="Cart_remove()[pri:9, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:06:29 IST" name="Cart_remove" finished-at="2021-11-19T10:06:41 IST" duration-ms="12104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Cart_remove -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:48:06 IST" name="meth" finished-at="2021-11-18T20:48:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:06:41 IST" name="meth" finished-at="2021-11-19T10:06:41 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Footer_ContactUS()[pri:10, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:48:06 IST" name="Footer_ContactUS" finished-at="2021-11-18T20:48:34 IST" duration-ms="28053" status="PASS">
+        <test-method signature="Footer_ContactUS()[pri:10, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:06:41 IST" name="Footer_ContactUS" finished-at="2021-11-19T10:07:39 IST" duration-ms="57609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer_ContactUS -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:48:34 IST" name="meth" finished-at="2021-11-18T20:48:34 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:07:39 IST" name="meth" finished-at="2021-11-19T10:07:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-18T20:48:34 IST" name="end" finished-at="2021-11-18T20:48:38 IST" duration-ms="3145" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@3943a2be]" started-at="2021-11-19T10:07:39 IST" name="end" finished-at="2021-11-19T10:07:46 IST" duration-ms="7196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

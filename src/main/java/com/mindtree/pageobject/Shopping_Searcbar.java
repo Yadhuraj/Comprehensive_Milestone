@@ -37,8 +37,8 @@ public class Shopping_Searcbar extends Shopping_Searchbar {
 					Thread.sleep(3000);
 				}
 				DriverFunctions.click(driver, add_cart);
-				Thread.sleep(8000);
-				if (driver.findElement(cart_close).isDisplayed()) 
+				Thread.sleep(9000);
+				if (driver.findElements(cart_close).size()>0) 
 				{
 					DriverFunctions.click(driver,cart_close);
 					Log.testLoggerInfo(logger, "Added successfully");

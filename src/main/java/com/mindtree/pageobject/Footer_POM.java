@@ -23,22 +23,22 @@ public class Footer_POM extends Footer_UI {
 			Thread.sleep(3000);
 			DriverFunctions.click(driver, submit);
 			Thread.sleep(5000);
-			if(driver.findElement(validate2).isDisplayed())
+			if(driver.findElements(validate2).size()>0)
 			{
 				System.out.println("if1");
 				Log.testLoggerInfo(logger, "Sucessful in reteiving password");
 				ExtentUtility.pass(test,driver, "Sucessful in reteiving password");
 			}
 			else
-			if(driver.findElement(validate).isDisplayed())
+			if(driver.findElements(validate).size()>0)
 			{
-				Log.testLoggerInfo(logger, "Message sent As Expected");
-				ExtentUtility.pass(test, driver, "Message sent As Expected");
+				Log.testLoggerInfo(logger, "Sucessful in reteiving password");
+				ExtentUtility.pass(test, driver, "Sucessful in reteiving password");
 			}
 			else
 			{
-				Log.testLoggerInfo(logger, "Message not sent As Expected");
-				ExtentUtility.pass(test, driver, "Message not sent As Expected");
+				Log.testLoggerInfo(logger, "NOT Sucessful in reteiving password");
+				ExtentUtility.pass(test, driver, "NOT Sucessful in reteiving password");
 			}
 			Thread.sleep(3000);
 			DriverFunctions.click(driver, home);

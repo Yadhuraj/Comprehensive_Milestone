@@ -32,20 +32,21 @@ public class Login_Forgot_POM extends Login_Forgot_UI{
 				ExtentUtility.pass(test,driver, "Sucessful in reteiving password");
 			}
 			else
-			if(driver.findElement(validate2).isDisplayed())
+			if(driver.findElements(validate2).size()>0)
 			{
 				System.out.println("if1");
 				Log.testLoggerInfo(logger, "Sucessful in reteiving password");
 				ExtentUtility.pass(test,driver, "Sucessful in reteiving password");
 			}
 			else
-			if(driver.findElement(validate_recover).isDisplayed())
+			if(driver.findElements(validate_recover).size()>0)
 			{
 				Log.testLoggerInfo(logger, "Sucessful in reteiving password");
 				ExtentUtility.pass(test,driver, "Sucessful in reteiving password");
 			}
 			else
 			{
+				DriverFunctions.click(driver, home);
 				throw new PageObjectRException("Forgot password interrupted");
 			}
 		}

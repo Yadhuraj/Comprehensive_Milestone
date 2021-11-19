@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="368.819" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="358.818" tests="11" errors="0" skipped="0" failures="5">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="webdriver.chrome.driver" value="H:\Selenium\Final\Comprehensive_mile5_Hybrid//driver//chromedriver.exe"/>
@@ -16,8 +16,8 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="G:\eclipse-java-2021-09-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\yadhuraj\AppData\Local\Temp\surefire11037369531217551676\surefirebooter11028663749146635713.jar C:\Users\yadhuraj\AppData\Local\Temp\surefire11037369531217551676 2021-11-18T20-42-26_780-jvmRun1 surefire7375300355602496022tmp surefire_016434280994266745370tmp"/>
-    <property name="currenttime" value="18-11-2021-08-42-30"/>
+    <property name="sun.java.command" value="C:\Users\yadhuraj\AppData\Local\Temp\surefire6193584579316308670\surefirebooter18002290042622873447.jar C:\Users\yadhuraj\AppData\Local\Temp\surefire6193584579316308670 2021-11-19T10-01-46_145-jvmRun1 surefire13734603304344004796tmp surefire_07077702683594825307tmp"/>
+    <property name="currenttime" value="19-11-2021-10-01-49"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="H:\Selenium\Final\Comprehensive_mile5_Hybrid\target\test-classes;H:\Selenium\Final\Comprehensive_mile5_Hybrid\target\classes;C:\Users\yadhuraj\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\yadhuraj\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yadhuraj\.m2\repository\io\cucumber\cucumber-junit\7.0.0\cucumber-junit-7.0.0.jar;C:\Users\yadhuraj\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\yadhuraj\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\yadhuraj\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\yadhuraj\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\yadhuraj\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\yadhuraj\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\yadhuraj\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\yadhuraj\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\yadhuraj\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\yadhuraj\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\yadhuraj\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\yadhuraj\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\yadhuraj\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\yadhuraj\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\yadhuraj\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\yadhuraj\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\yadhuraj\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\yadhuraj\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\yadhuraj\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\yadhuraj\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\yadhuraj\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\yadhuraj\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\yadhuraj\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\yadhuraj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\yadhuraj\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\yadhuraj\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\yadhuraj\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\yadhuraj\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\yadhuraj\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\yadhuraj\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\yadhuraj\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\yadhuraj\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\yadhuraj\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\yadhuraj\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\yadhuraj\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\yadhuraj\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\yadhuraj\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\yadhuraj\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\yadhuraj\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\yadhuraj\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\yadhuraj\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\yadhuraj\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\yadhuraj\AppData\Local\Temp\surefire11037369531217551676\surefirebooter11028663749146635713.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\yadhuraj\AppData\Local\Temp\surefire6193584579316308670\surefirebooter18002290042622873447.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -57,88 +57,259 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="Login" classname="com.mindtree.runner.BigSmall_Runner" time="41.141">
+  <testcase name="Login" classname="com.mindtree.runner.BigSmall_Runner" time="42.734">
     <system-out><![CDATA[1
 if1
-11-18-2021 20:43:04 Log.java INFO  [main] Login 20 - Login successful
+11-19-2021 10:02:25 Log.java INFO  [main] Login 20 - Login successful
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 15015
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 4360
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 18, 2021 8:42:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 19, 2021 10:01:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid_Login[sedifek613@otozuz.com, book@123](1)" classname="com.mindtree.runner.BigSmall_Runner" time="34.172">
-    <system-out><![CDATA[11-18-2021 20:43:36 Log.java INFO  [main] Invalid_Login 20 - invalid login intercepted-successful
+  <testcase name="Invalid_Login[sedifek613@otozuz.com, book@123](1)" classname="com.mindtree.runner.BigSmall_Runner" time="37.897">
+    <system-out><![CDATA[11-19-2021 10:02:55 Log.java INFO  [main] Invalid_Login 20 - invalid login intercepted-successful
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 14842
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 32450
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 18, 2021 8:43:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 19, 2021 10:02:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Invalid_Login[sedifek@otozuz.com, book@1](2)" classname="com.mindtree.runner.BigSmall_Runner" time="37.574">
-    <system-out><![CDATA[11-18-2021 20:44:09 Log.java INFO  [main] Invalid_Login 20 - invalid login intercepted-successful
+  <testcase name="Invalid_Login[sedifek@otozuz.com, book@1](2)" classname="com.mindtree.runner.BigSmall_Runner" time="43.049">
+    <system-out><![CDATA[11-19-2021 10:03:34 Log.java INFO  [main] Invalid_Login 20 - invalid login intercepted-successful
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 41953
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 6636
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 18, 2021 8:43:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 19, 2021 10:03:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Forgot_Login" classname="com.mindtree.runner.BigSmall_Runner" time="39.045">
-    <system-out><![CDATA[11-18-2021 20:44:59 Log.java INFO  [main] Forgot_Login 20 - Sucessful in reteiving password
+  <testcase name="Forgot_Login" classname="com.mindtree.runner.BigSmall_Runner" time="43.118">
+    <system-out><![CDATA[11-19-2021 10:04:29 Log.java INFO  [main] Forgot_Login 20 - Sucessful in reteiving password
 here
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 31448
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 36255
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 18, 2021 8:44:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 19, 2021 10:03:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="SearchBar" classname="com.mindtree.runner.BigSmall_Runner" time="58.951">
-    <system-out><![CDATA[11-18-2021 20:45:31 Log.java INFO  [main] SearchBar 20 - Added successfully
-11-18-2021 20:45:54 Log.java INFO  [main] SearchBar 20 - Added successfully
+  <testcase name="SearchBar" classname="com.mindtree.runner.BigSmall_Runner" time="41.011">
+    <failure message="Cannot invoke &quot;String.indexOf(String)&quot; because &quot;path&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "String.indexOf(String)" because "path" is null
+	at com.mindtree.runner.BigSmall_Runner.SearchBar(BigSmall_Runner.java:90)
+]]></failure>
+    <system-out><![CDATA[11-19-2021 10:05:07 Log.java ERROR [main] SearchBar 28 - element click intercepted: Element <div class="h1 site-header__logo" itemscope="" itemtype="http://schema.org/Organization">...</div> is not clickable at point (311, 63). Other element would receive the click: <body class="template-product jdgm--leex-script-loaded js-animate swym-no-touch swym-ready swym-speed&amp;checkoutfixes-872 swym-speed&amp;checkoutfixes-872-iconbtnlink cart-has-items js-drawer-open" ontouchstart="return true;" data-transitions="false" data-animate_underlines="true" data-animate_images="true" data-button_style="round-slight" data-type_product_capitalize="false" data-type_header_capitalize="true" data-product_image_scatter="false" data-button_type_style="normal" data-aos-easing="ease-out-quad" data-aos-duration="400" data-aos-delay="0">...</body>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 2908
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 35060
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 18, 2021 8:45:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 19, 2021 10:04:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:415)
+	at java.base/java.io.File.getCanonicalPath(File.java:626)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1064)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1028)
+	at com.mindtree.utility.TakeScreenshots.screenshot(TakeScreenshots.java:23)
+	at com.mindtree.utility.ExtentUtility.fail(ExtentUtility.java:18)
+	at com.mindtree.pageobject.Shopping_Searcbar.<init>(Shopping_Searcbar.java:58)
+	at com.mindtree.runner.BigSmall_Runner.SearchBar(BigSmall_Runner.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]></system-err>
   </testcase>
-  <testcase name="Header" classname="com.mindtree.runner.BigSmall_Runner" time="32.615">
-    <system-out><![CDATA[11-18-2021 20:46:23 Log.java INFO  [main] Header 20 - Added successfully
+  <testcase name="Header" classname="com.mindtree.runner.BigSmall_Runner" time="33.506">
+    <failure message="Cannot invoke &quot;String.indexOf(String)&quot; because &quot;path&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "String.indexOf(String)" because "path" is null
+	at com.mindtree.runner.BigSmall_Runner.Header(BigSmall_Runner.java:101)
+]]></failure>
+    <system-out><![CDATA[11-19-2021 10:05:50 Log.java ERROR [main] Header 28 - element not interactable
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+]]></system-out>
+    <system-err><![CDATA[java.io.IOException: The parameter is incorrect
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:415)
+	at java.base/java.io.File.getCanonicalPath(File.java:626)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1064)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1028)
+	at com.mindtree.utility.TakeScreenshots.screenshot(TakeScreenshots.java:23)
+	at com.mindtree.utility.ExtentUtility.fail(ExtentUtility.java:18)
+	at com.mindtree.pageobject.Search_header.<init>(Search_header.java:51)
+	at com.mindtree.runner.BigSmall_Runner.Header(BigSmall_Runner.java:101)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="Latest" classname="com.mindtree.runner.BigSmall_Runner" time="33.641">
+    <failure message="Cannot invoke &quot;String.indexOf(String)&quot; because &quot;path&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "String.indexOf(String)" because "path" is null
+	at com.mindtree.runner.BigSmall_Runner.Latest(BigSmall_Runner.java:112)
+]]></failure>
+    <system-out><![CDATA[11-19-2021 10:06:23 Log.java ERROR [main] Latest 28 - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'New')]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+*** Element info: {Using=xpath, value=//button[contains(text(),'New')]}
+]]></system-out>
+    <system-err><![CDATA[java.io.IOException: Cannot create a file when that file already exists
+	at java.base/java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.base/java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:415)
+	at java.base/java.io.File.getCanonicalPath(File.java:626)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1064)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1028)
+	at com.mindtree.utility.TakeScreenshots.screenshot(TakeScreenshots.java:23)
+	at com.mindtree.utility.ExtentUtility.fail(ExtentUtility.java:18)
+	at com.mindtree.pageobject.Latest_POM.<init>(Latest_POM.java:47)
+	at com.mindtree.runner.BigSmall_Runner.Latest(BigSmall_Runner.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="Wishlist" classname="com.mindtree.runner.BigSmall_Runner" time="1.087">
+    <failure message="element click intercepted: Element &lt;span class=&quot;link_text&quot;&gt;...&lt;/span&gt; is not clickable at point (1215, 74). Other element would receive the click: &lt;div class=&quot;grid__item three-quarters&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=96.0.4664.45)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-3MSUA5N1&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4cf3448263e8b1ec301d8df6615c88d3" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="link_text">...</span> is not clickable at point (1215, 74). Other element would receive the click: <div class="grid__item three-quarters">...</div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+	at com.mindtree.runner.BigSmall_Runner.Wishlist(BigSmall_Runner.java:125)
+]]></failure>
+  </testcase>
+  <testcase name="Cart_checkout" classname="com.mindtree.runner.BigSmall_Runner" time="4.15">
+    <failure message="element click intercepted: Element &lt;span class=&quot;cart-link&quot;&gt;...&lt;/span&gt; is not clickable at point (1329, 62). Other element would receive the click: &lt;a href=&quot;/products/harry-potter-plush-soft-toy?variant=39591354400966&quot; class=&quot;cart__product-name&quot; data-cart-item-href=&quot;&quot; data-cart-item-title=&quot;&quot;&gt;...&lt;/a&gt;&#10;  (Session info: chrome=96.0.4664.45)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-3MSUA5N1&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4cf3448263e8b1ec301d8df6615c88d3" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="cart-link">...</span> is not clickable at point (1329, 62). Other element would receive the click: <a href="/products/harry-potter-plush-soft-toy?variant=39591354400966" class="cart__product-name" data-cart-item-href="" data-cart-item-title="">...</a>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3MSUA5N1', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\yadhuraj\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cf3448263e8b1ec301d8df6615c88d3
+	at com.mindtree.runner.BigSmall_Runner.Cart_checkout(BigSmall_Runner.java:134)
+]]></failure>
+  </testcase>
+  <testcase name="Cart_remove" classname="com.mindtree.runner.BigSmall_Runner" time="12.104">
+    <system-out><![CDATA[11-19-2021 10:06:33 Log.java INFO  [main] Cart_remove 20 - Did not remove As Expected
 ]]></system-out>
   </testcase>
-  <testcase name="Latest" classname="com.mindtree.runner.BigSmall_Runner" time="31.729">
-    <system-out><![CDATA[11-18-2021 20:46:55 Log.java INFO  [main] Latest 20 - Added successfully
-]]></system-out>
-  </testcase>
-  <testcase name="Wishlist" classname="com.mindtree.runner.BigSmall_Runner" time="15.389">
-    <system-out><![CDATA[11-18-2021 20:47:13 Log.java INFO  [main] Wishlist 20 - Navigated as expected
-]]></system-out>
-  </testcase>
-  <testcase name="Cart_checkout" classname="com.mindtree.runner.BigSmall_Runner" time="26.583">
-    <system-out><![CDATA[11-18-2021 20:47:37 Log.java INFO  [main] Cart_checkout 20 - Navigated As Expected
-]]></system-out>
-  </testcase>
-  <testcase name="Cart_remove" classname="com.mindtree.runner.BigSmall_Runner" time="19.297">
-    <system-out><![CDATA[11-18-2021 20:47:58 Log.java INFO  [main] Cart_remove 20 - Removed the item As Expected
-]]></system-out>
-  </testcase>
-  <testcase name="Footer_ContactUS" classname="com.mindtree.runner.BigSmall_Runner" time="28.054">
-    <system-out><![CDATA[if1
-11-18-2021 20:48:28 Log.java INFO  [main] Footer_ContactUS 20 - Sucessful in reteiving password
+  <testcase name="Footer_ContactUS" classname="com.mindtree.runner.BigSmall_Runner" time="57.61">
+    <system-out><![CDATA[11-19-2021 10:07:34 Log.java INFO  [main] Footer_ContactUS 20 - Message sent As Expected
 ]]></system-out>
   </testcase>
 </testsuite>
