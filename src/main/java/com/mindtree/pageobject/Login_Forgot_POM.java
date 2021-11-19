@@ -35,6 +35,7 @@ public class Login_Forgot_POM extends Login_Forgot_UI{
 			if(driver.findElements(validate2).size()>0)
 			{
 				System.out.println("if1");
+				Log.testLoggerWarn(logger, "Captha Encountered");
 				Log.testLoggerInfo(logger, "Sucessful in reteiving password");
 				ExtentUtility.pass(test,driver, "Sucessful in reteiving password");
 			}

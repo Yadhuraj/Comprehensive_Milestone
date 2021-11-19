@@ -25,6 +25,7 @@ public class Login_Invalid_POM extends Login_Invaid_UI{
 			if(driver.findElements(validate2).size()>0)
 			{
 //				System.out.println("if1");
+				Log.testLoggerWarn(logger, "Captha Encountered");
 				Log.testLoggerInfo(logger, "invalid login intercepted-successful");
 				ExtentUtility.pass(test,driver, "invalid login intercepted-successful");
 			}

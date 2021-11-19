@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-19T10:14:49 IST" name="Default suite" finished-at="2021-11-19T10:22:08 IST" duration-ms="439391">
+  <suite started-at="2021-11-19T14:33:49 IST" name="Default suite" finished-at="2021-11-19T14:41:03 IST" duration-ms="433720">
     <groups>
     </groups>
-    <test started-at="2021-11-19T10:14:49 IST" name="Default test" finished-at="2021-11-19T10:22:08 IST" duration-ms="439391">
+    <test started-at="2021-11-19T14:33:49 IST" name="Default test" finished-at="2021-11-19T14:41:03 IST" duration-ms="433720">
       <class name="com.mindtree.runner.BigSmall_Runner">
-        <test-method is-config="true" signature="set()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:14:49 IST" name="set" finished-at="2021-11-19T10:14:49 IST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="set()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:33:49 IST" name="set" finished-at="2021-11-19T14:33:50 IST" duration-ms="682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set -->
-        <test-method signature="Login()[pri:1, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:14:49 IST" name="Login" finished-at="2021-11-19T10:15:33 IST" duration-ms="43370" status="PASS">
+        <test-method signature="Login()[pri:1, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:33:50 IST" name="Login" finished-at="2021-11-19T14:34:45 IST" duration-ms="55011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:15:33 IST" name="meth" finished-at="2021-11-19T10:15:33 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:34:45 IST" name="meth" finished-at="2021-11-19T14:34:45 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Invalid_Login(java.lang.String,java.lang.String)[pri:2, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:15:33 IST" name="Invalid_Login" data-provider="data_values" finished-at="2021-11-19T10:16:16 IST" duration-ms="43571" status="PASS">
+        <test-method signature="Invalid_Login(java.lang.String,java.lang.String)[pri:2, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:34:45 IST" name="Invalid_Login" data-provider="data_values" finished-at="2021-11-19T14:35:32 IST" duration-ms="47340" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Invalid_Login -->
-        <test-method signature="Invalid_Login(java.lang.String,java.lang.String)[pri:2, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:16:16 IST" name="Invalid_Login" data-provider="data_values" finished-at="2021-11-19T10:17:01 IST" duration-ms="44599" status="PASS">
+        <test-method signature="Invalid_Login(java.lang.String,java.lang.String)[pri:2, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:35:32 IST" name="Invalid_Login" data-provider="data_values" finished-at="2021-11-19T14:36:17 IST" duration-ms="44112" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,79 +51,79 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Invalid_Login -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:16:16 IST" name="meth" finished-at="2021-11-19T10:16:16 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:35:32 IST" name="meth" finished-at="2021-11-19T14:35:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:17:01 IST" name="meth" finished-at="2021-11-19T10:17:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:36:17 IST" name="meth" finished-at="2021-11-19T14:36:17 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Forgot_Login()[pri:3, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:17:01 IST" name="Forgot_Login" finished-at="2021-11-19T10:17:48 IST" duration-ms="47386" status="PASS">
+        <test-method signature="Forgot_Login()[pri:3, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:36:17 IST" name="Forgot_Login" finished-at="2021-11-19T14:37:06 IST" duration-ms="49780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Forgot_Login -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:17:48 IST" name="meth" finished-at="2021-11-19T10:17:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:37:06 IST" name="meth" finished-at="2021-11-19T14:37:06 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="SearchBar()[pri:4, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:17:48 IST" name="SearchBar" finished-at="2021-11-19T10:19:03 IST" duration-ms="74660" status="PASS">
+        <test-method signature="SearchBar()[pri:4, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:37:06 IST" name="SearchBar" finished-at="2021-11-19T14:38:23 IST" duration-ms="76999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchBar -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:19:03 IST" name="meth" finished-at="2021-11-19T10:19:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:38:23 IST" name="meth" finished-at="2021-11-19T14:38:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Header()[pri:5, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:19:03 IST" name="Header" finished-at="2021-11-19T10:19:38 IST" duration-ms="35443" status="PASS">
+        <test-method signature="Header()[pri:5, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:38:23 IST" name="Header" finished-at="2021-11-19T14:38:56 IST" duration-ms="32623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Header -->
-        <test-method signature="Latest()[pri:6, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:19:38 IST" name="Latest" finished-at="2021-11-19T10:20:10 IST" duration-ms="31839" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:38:56 IST" name="meth" finished-at="2021-11-19T14:38:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth -->
+        <test-method signature="Latest()[pri:6, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:38:56 IST" name="Latest" finished-at="2021-11-19T14:39:30 IST" duration-ms="33558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Latest -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:19:38 IST" name="meth" finished-at="2021-11-19T10:19:38 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:39:30 IST" name="meth" finished-at="2021-11-19T14:39:30 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:20:10 IST" name="meth" finished-at="2021-11-19T10:20:10 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- meth -->
-        <test-method signature="Wishlist()[pri:7, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:20:10 IST" name="Wishlist" finished-at="2021-11-19T10:20:25 IST" duration-ms="14869" status="PASS">
+        <test-method signature="Wishlist()[pri:7, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:39:30 IST" name="Wishlist" finished-at="2021-11-19T14:39:48 IST" duration-ms="18130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Wishlist -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:20:25 IST" name="meth" finished-at="2021-11-19T10:20:25 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- meth -->
-        <test-method signature="Cart_checkout()[pri:8, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:20:25 IST" name="Cart_checkout" finished-at="2021-11-19T10:20:46 IST" duration-ms="21195" status="PASS">
+        <test-method signature="Cart_checkout()[pri:8, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:39:48 IST" name="Cart_checkout" finished-at="2021-11-19T14:40:09 IST" duration-ms="21333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Cart_checkout -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:20:46 IST" name="meth" finished-at="2021-11-19T10:20:46 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:39:48 IST" name="meth" finished-at="2021-11-19T14:39:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Cart_remove()[pri:9, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:20:46 IST" name="Cart_remove" finished-at="2021-11-19T10:21:06 IST" duration-ms="19305" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:40:09 IST" name="meth" finished-at="2021-11-19T14:40:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- meth -->
+        <test-method signature="Cart_remove()[pri:9, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:40:09 IST" name="Cart_remove" finished-at="2021-11-19T14:40:28 IST" duration-ms="19171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Cart_remove -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:21:06 IST" name="meth" finished-at="2021-11-19T10:21:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:40:28 IST" name="meth" finished-at="2021-11-19T14:40:28 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method signature="Footer_ContactUS()[pri:10, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:21:06 IST" name="Footer_ContactUS" finished-at="2021-11-19T10:22:05 IST" duration-ms="59739" status="PASS">
+        <test-method signature="Footer_ContactUS()[pri:10, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:40:28 IST" name="Footer_ContactUS" finished-at="2021-11-19T14:41:00 IST" duration-ms="31662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Footer_ContactUS -->
-        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:22:05 IST" name="meth" finished-at="2021-11-19T10:22:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="meth()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:41:00 IST" name="meth" finished-at="2021-11-19T14:41:00 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- meth -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T10:22:05 IST" name="end" finished-at="2021-11-19T10:22:08 IST" duration-ms="3117" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.mindtree.runner.BigSmall_Runner@67f639d3]" started-at="2021-11-19T14:41:00 IST" name="end" finished-at="2021-11-19T14:41:03 IST" duration-ms="3264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

@@ -1,0 +1,13 @@
+2021-11-19 14:34:33,738  INFO [main] Login:20 - Login successful
+ 2021-11-19 14:35:27,401  INFO [main] Invalid_Login:20 - invalid login intercepted-successful
+ 2021-11-19 14:36:11,688  INFO [main] Invalid_Login:20 - invalid login intercepted-successful
+ 2021-11-19 14:37:00,437  INFO [main] Forgot_Login:20 - Sucessful in reteiving password
+ 2021-11-19 14:37:44,618  INFO [main] SearchBar:20 - Added successfully
+ 2021-11-19 14:38:13,410  INFO [main] SearchBar:20 - Added successfully
+ 2021-11-19 14:38:46,752  INFO [main] Header:20 - Added successfully
+ 2021-11-19 14:39:20,143  INFO [main] Latest:20 - Added successfully
+ 2021-11-19 14:39:40,908  INFO [main] Wishlist:20 - Navigated as expected
+ 2021-11-19 14:39:59,533  INFO [main] Cart_checkout:20 - Navigated As Expected
+ 2021-11-19 14:40:20,684  INFO [main] Cart_remove:20 - Removed the item As Expected
+ 2021-11-19 14:40:50,651  INFO [main] Footer_ContactUS:20 - Sucessful in reteiving password
+ 

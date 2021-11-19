@@ -26,6 +26,7 @@ public class Footer_POM extends Footer_UI {
 			if(driver.findElements(validate2).size()>0)
 			{
 				System.out.println("if1");
+				Log.testLoggerWarn(logger, "Captha Encountered");
 				Log.testLoggerInfo(logger, "Sucessful in reteiving password");
 				ExtentUtility.pass(test,driver, "Sucessful in reteiving password");
 			}
@@ -37,8 +38,8 @@ public class Footer_POM extends Footer_UI {
 			}
 			else
 			{
-				Log.testLoggerInfo(logger, "NOT Sucessful in reteiving password");
-				ExtentUtility.pass(test, driver, "NOT Sucessful in reteiving password");
+				Log.testLoggerError(logger, "NOT Sucessful in reteiving password");
+				ExtentUtility.fail(test, driver, "NOT Sucessful in reteiving password");
 			}
 			Thread.sleep(3000);
 			DriverFunctions.click(driver, home);

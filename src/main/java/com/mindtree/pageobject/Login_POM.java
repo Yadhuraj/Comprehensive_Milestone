@@ -27,6 +27,7 @@ public class Login_POM extends Login_UI{
 			if(driver.findElements(validate2).size()>0)
 			{
 				System.out.println("if1");
+				Log.testLoggerWarn(logger, "Captha Encountered");
 				Log.testLoggerInfo(logger, "Login successful");
 				ExtentUtility.pass(test,driver, "Login successful");
 			}
